@@ -17,4 +17,12 @@ public interface FrameworkConfig extends Config {
     @ConverterClass(ConvertStringToEnumType.class)
     @DefaultValue("CHROME")
     BrowserType browser();
+
+    @DefaultValue("https://tasky-be.qacart.com/api")
+    @Key("api.url")
+    String apiURL();
+
+    @DefaultValue("https://tasky.qacart.com")
+    @Key("pageBase.url")
+    String pageBaseURL();
 }
