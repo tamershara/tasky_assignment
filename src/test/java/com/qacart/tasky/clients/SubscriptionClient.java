@@ -4,7 +4,6 @@ import com.qacart.tasky.model.SubscriptionData;
 import io.restassured.response.Response;
 
 import static com.qacart.tasky.clients.BaseClient.getAuthenticatedRequestSpec;
-import static io.restassured.RestAssured.given;
 
 public final class SubscriptionClient {
     private SubscriptionClient() {}

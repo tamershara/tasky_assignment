@@ -5,7 +5,6 @@ import com.qacart.tasky.model.UserRegistration;
 import io.restassured.response.Response;
 
 import static com.qacart.tasky.clients.BaseClient.getDefaultRequestSpec;
-import static io.restassured.RestAssured.given;
 
 
 public final class UserClient {
